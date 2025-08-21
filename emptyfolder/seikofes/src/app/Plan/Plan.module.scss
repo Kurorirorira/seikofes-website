@@ -1,0 +1,58 @@
+.planContainer{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.content{
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+
+.back{
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.button1,
+.button2,
+.button3,
+.button4,
+.button5,
+.button6 {
+    background: #f5f5f5;
+    border: none;
+    color: black;
+    padding: 5px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 18px;
+    border: solid 2px black;
+    border-radius: 9999px;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover,
+.button6:hover {
+    background-color: #965ac6;
+    color: white;
+}
