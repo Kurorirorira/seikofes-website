@@ -1,26 +1,20 @@
 .planContainer{
     display: flex;
     flex-direction: column;
-
     height: 100vh;
+    background-color: #FFE001;
 }
 
 .menu{
     display: flex;
     justify-content: flex-start;
-    background-color: #f5f5f5;
     padding: 10px;
+    border-bottom: solid 1px black;
 }
 
 .content{
     flex: 1;
     padding: 20px;
-    background-color: #f5f5f5;
-}
-
-.active{
-    background-color: black;
-    color: white;
 }
 
 .back{
@@ -53,6 +47,16 @@
 .button4:hover,
 .button5:hover,
 .button6:hover {
-    background-color: #965ac6;
+    background-color: black;
+    color: white;
+}
+
+.button1.active,
+.button2.active,
+.button3.active,
+.button4.active,
+.button5.active,
+.button6.active {
+    background-color: black;
     color: white;
 }

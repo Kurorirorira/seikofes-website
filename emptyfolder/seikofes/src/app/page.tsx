@@ -30,18 +30,26 @@ export default function Home() {
             <Link className={homepagestyles.text1aLink} href="/Plan">
               <p className={homepagestyles.text1a}>企画一覧</p>
             </Link>
-            <Link className={homepagestyles.text1bLink} href="/InterestinNews">
-            <p className={homepagestyles.text1b}>スローガン</p>
+            <Link className={homepagestyles.text1bLink} href="/Slogan">
+              <p className={homepagestyles.text1b}>スローガン</p>
             </Link>
-            <Link className={homepagestyles.text1cLink} href="/Plan">
-            <p className={homepagestyles.text1c}>イベント</p>
+            <Link className={homepagestyles.text1cLink} href="/Event">
+              <p className={homepagestyles.text1c}>イベント</p>
             </Link>
             <h1 className={homepagestyles.textA}>おもしろニュース・動画</h1>
             <p className={homepagestyles.textAA}>More→</p>
-            <p className={homepagestyles.text2a}>装飾できた</p>
-            <p className={homepagestyles.text2b}>ステージ企画公開！</p>
-            <p className={homepagestyles.text2c}>グッズ完成</p>
-            <p className={homepagestyles.text2d}>ご飯おいしい</p>
+            <Link className={homepagestyles.text2aLink} href="/FunnyNews">
+              <p className={homepagestyles.text2a}>装飾できた</p>
+            </Link>
+            <Link className={homepagestyles.text2bLink} href="/FunnyNews">
+              <p className={homepagestyles.text2b}>ステージ企画公開</p>
+            </Link>
+            <Link className={homepagestyles.text2cLink} href="/FunnyNews">
+              <p className={homepagestyles.text2c}>グッズ完成</p>
+            </Link>
+            <Link className={homepagestyles.text2dLink} href="/FunnyNews">
+              <p className={homepagestyles.text2d}>ご飯おいしい</p>
+            </Link>
             <p className={homepagestyles.trapezoid1}></p>
             <p className={homepagestyles.trapezoid2}></p>
             <p className={homepagestyles.trapezoid3}></p>

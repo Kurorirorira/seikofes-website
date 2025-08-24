@@ -1,0 +1,46 @@
+.eventContainer{
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+}
+
+.date1,
+.date2{
+    grid-column: 1 / span 3;
+    font-size: 24px;
+}
+
+.date2{
+    margin-top: 50px;
+}
+
+
+
+.eventDetails{
+    grid-column: 1 / span 3;
+    position: relative;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.title{
+    position: absolute;
+}
+
+.text{
+    position: absolute;
+    top: 30px;
+}
+
+.images{
+    position: absolute;
+    left: 60px;
+}
+
+.back{
+    grid-column: 1 / span 1;
+    font-size: 16px;
+}
+
+.backLink{
+    grid-column: 1 / span 1;
+}

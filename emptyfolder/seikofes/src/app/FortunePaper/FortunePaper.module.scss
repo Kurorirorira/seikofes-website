@@ -1,8 +1,11 @@
 .fortunecontainer{
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  margin-top: 50px;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  background-color: #FFE001;
+  height: 100vh;
 }
 
 .omikujibutton,

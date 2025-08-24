@@ -100,28 +100,30 @@
 }
 
 .text1b{
-    grid-column: 10 / span 3;
+    grid-column: 11 / span 3;
     padding: 10px 10px 10px 10px;
 }
 
 .text1bLink{
-    grid-column: 10 / span 3;
+    grid-column: 11 / span 3;
 }
 
 .text1c{
-    grid-column: 15 / span 3;
+    grid-column: 17 / span 3;
     padding: 10px 10px 10px 10px;
 }
 
 .text1cLink{
-    grid-column: 15 / span 3;
+    grid-column: 17 / span 3;
 }
 
 .text2a,
 .text2b,
 .text2c,
 .text2d{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 15px;
     margin-top: 10px;
     border-top: solid 2px black;
@@ -162,7 +164,11 @@
 
 .text2a{
     grid-column: 5 / span 3;
-    padding: 10px 10px 10px 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.text2aLink{
+    grid-column: 5 / span 3;
 }
 
 .text2b{
@@ -170,15 +176,26 @@
     padding: 10px 10px 10px 15px;
 }
 
+.text2bLink{
+    grid-column: 10 / span 3;
+}
+
 .text2c{
     grid-column: 15 / span 3;
-    padding: 10px 10px 10px 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.text2cLink{
+    grid-column: 15 / span 3;
 }
 
 .text2d{
     grid-column: 20 / span 3;
-    padding: 10px 10px 10px 40px;
-    
+    padding: 10px 10px 10px 10px;   
+}
+
+.text2dLink{
+    grid-column: 20 / span 3;
 }
 
 .text3a,
