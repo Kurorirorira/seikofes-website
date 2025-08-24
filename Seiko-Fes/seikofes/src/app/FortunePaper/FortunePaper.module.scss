@@ -1,0 +1,37 @@
+.fortunecontainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.omikujibutton,
+.resetbutton{
+    background-color: #ffcc00;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.omikujibutton:hover,
+.resetbutton:hover{
+    background-color: #ff9900;
+  transform: scale(1.05);
+}
+
+.resulttext{
+    margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.backlink{
+    font-size: 24px;
+    font-weight: bold;
+}
