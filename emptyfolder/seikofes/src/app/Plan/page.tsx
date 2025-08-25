@@ -5,6 +5,48 @@ import { useState } from "react";
 
 export default function plan(){
     const [activeTab, setActiveTab] = useState("1F");
+    const items1 = [
+        {
+            title: "タイトル",
+            description: "この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、",
+            image: "/images/FirstView.png",
+        },
+    ];
+    const items2 = [
+        {
+            title: "タイトル２",
+            description: "説明",
+            image: "/images/FirstView.png",
+        },
+    ];
+    const items3 = [
+        {
+            title: "",
+            description: "",
+            image: "/images/FirstView.png",
+        },
+    ];
+    const items4 = [
+        {
+            title: "",
+            description: "",
+            image: "/images/FirstView.png",
+        },
+    ];
+    const items5 = [
+        {
+            title: "",
+            description: "",
+            image: "/images/FirstView.png",
+        },
+    ];
+    const items6 = [
+        {
+            title: "",
+            description: "",
+            image: "/images/FirstView.png",
+        },
+    ]
 
     return (
         <div className={planstyles.planContainer}>
@@ -20,12 +62,72 @@ export default function plan(){
                 </Link>
             </div>
             <div className={planstyles.content}>
-                {activeTab === "1F" && <h2>1Fの情報</h2>}
-                {activeTab === "2F" && <h2>2Fの情報</h2>}
-                {activeTab === "3F" && <h2>3Fの情報</h2>}
-                {activeTab === "4F" && <h2>4Fの情報</h2>}
-                {activeTab === "5F" && <h2>5Fの情報</h2>}
-                {activeTab === "out" && <h2>外の情報</h2>}
+                {activeTab === "1F" && items1.map((item1, index) => (
+                    <div key={index} className={planstyles.card}>
+                        <div className={planstyles.imagearea}>
+                            <img src={item1.image} alt={item1.title} />
+                        </div>
+                        <div className={planstyles.textarea}>
+                            <h2>{item1.title}</h2>
+                            <p>{item1.description}</p>
+                        </div>
+                    </div>
+                ))}
+                {activeTab === "2F" && items2.map((item2, index) => (
+                    <div key={index} className={planstyles.card}>
+                        <div className={planstyles.imagearea}>
+                            <img src={item2.image} alt={item2.title} />
+                        </div>
+                        <div className={planstyles.textarea}>
+                            <h2>{item2.title}</h2>
+                            <p>{item2.description}</p>
+                        </div>
+                    </div>
+                ))}
+                {activeTab === "3F" && items3.map((item3, index) => (
+                    <div key={index} className={planstyles.card}>
+                        <div className={planstyles.imagearea}>
+                            <img src={item3.image} alt={item3.title} />
+                        </div>
+                        <div className={planstyles.textarea}>
+                            <h2>{item3.title}</h2>
+                            <p>{item3.description}</p>
+                        </div>
+                    </div>
+                ))}
+                {activeTab === "4F" && items4.map((item4, index) => (
+                    <div key={index} className={planstyles.card}>
+                        <div className={planstyles.imagearea}>
+                            <img src={item4.image} alt={item4.title} />
+                        </div>
+                        <div className={planstyles.textarea}>
+                            <h2>{item4.title}</h2>
+                            <p>{item4.description}</p>
+                        </div>
+                    </div>
+                ))}
+                {activeTab === "5F" && items5.map((item5, index) => (
+                    <div key={index} className={planstyles.card}>
+                        <div className={planstyles.imagearea}>
+                            <img src={item5.image} alt={item5.title} />
+                        </div>
+                        <div className={planstyles.textarea}>
+                            <h2>{item5.title}</h2>
+                            <p>{item5.description}</p>
+                        </div>
+                    </div>
+                ))}
+                {activeTab === "out" && items6.map((item6, index) => (
+                    <div key={index} className={planstyles.card}>
+                        <div className={planstyles.imagearea}>
+                            <img src={item6.image} alt={item6.title} />
+                        </div>
+                        <div className={planstyles.textarea}>
+                            <h2>{item6.title}</h2>
+                            <p>{item6.description}</p>
+                        </div>
+                    </div>
+                ))}
             </div>
         </div>
     )

@@ -1,64 +1,10 @@
-"use client";
-import { useState, useEffect } from "react";
-import styles from "./FortunePaper.module.scss";
-import Link from "next/link";
-import Head from "next/head";
+import FortuneClient from "./FortuneClient";
 
-export default function Omikuji() {
-  const maxcount = 3;
-  const [result, setResult] = useState("");
-  const [count, setCount] = useState(maxcount);
+export const metadata = {
+  title: 'おみくじ',
+  description: 'おみくじを引いて運試し！',
+};
 
-  useEffect(() =>{
-    const savedcount = localStorage.getItem("omikujicount");
-    if (savedcount !== null  && !isNaN(Number(savedcount))) {
-      setCount(Number(savedcount));
-    } else {
-      setCount(maxcount);
-    }
-  }, []);
-
-  const handleClick = () => {
-    if (count <= 0) return;
-
-    const rand = Math.random();
-    let omikuji = "";
-    if (rand < 0.1) omikuji = "大吉";
-    else if (rand < 0.4) omikuji = "中吉";
-    else if (rand < 0.9) omikuji = "小吉";
-    else omikuji = "凶";
-
-    setResult(omikuji);
-    const newcount = count - 1;
-    setCount(newcount);
-    localStorage.setItem("omikujicount", newcount.toString());
-  };
-
-  const handleReset = () => {
-    setCount(maxcount);
-    localStorage.setItem("omikujicount", maxcount.toString());
-    setResult("");
-  }
-
-  return (
-    <>
-    <Head>
-      <title>おみくじページ</title>
-    </Head>
-    <div className={styles.fortunecontainer}>
-      <h1>おみくじを引いてね</h1>
-      <button className={styles.omikujibutton} onClick={handleClick} disabled={count <= 0}>
-        おみくじを引く
-      </button>
-      {result && <p className={styles.resulttext}>結果:{result}</p>}
-      <p className={styles.omikujicount}>残り回数:{count}回</p>
-      {count <= 0 &&(
-        <button className={styles.resetbutton} onClick={handleReset}>回数をリセット</button>
-      )}
-      <Link className={styles.backlink} href={"/"}>
-      <p>戻る</p>
-      </Link>
-    </div>
-    </>
-  );
+export default function FortunePaper() {
+  return <FortuneClient />;
 }

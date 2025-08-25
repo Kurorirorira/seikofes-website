@@ -9,23 +9,27 @@ export default function funnynews(){
     return (
         <div className={funnynewsstyles.funnynewscontainer}>
             <div className={funnynewsstyles.menu}>
-                <button className={`${funnynewsstyles.button1} ${activetab === "home" ? funnynewsstyles.active : ""}`} onClick={() => setActiveTab("home")}>ホーム</button>
-                <button className={`${funnynewsstyles.button2} ${activetab === "search" ? funnynewsstyles.active : ""}`} onClick={() => setActiveTab("search")}>検索</button>
-                <button className={`${funnynewsstyles.button3} ${activetab === "notification" ? funnynewsstyles.active : ""}`} onClick={() => setActiveTab("notification")}>通知</button>
-                <button className={`${funnynewsstyles.button4} ${activetab === "message" ? funnynewsstyles.active : ""}`} onClick={() => setActiveTab("message")}>メッセージ</button>
-                <button className={`${funnynewsstyles.button5} ${activetab === "profile" ? funnynewsstyles.active : ""}`} onClick={() => setActiveTab("profile")}>プロフィール</button>
-                <button className={`${funnynewsstyles.button6} ${activetab === "goseikofes" ? funnynewsstyles.active : ""}`} onClick={() => setActiveTab("goseikofes")}>聖光祭に行く</button>
+                <button className={funnynewsstyles.button1}>ホーム</button>
+                <button className={funnynewsstyles.button2}>検索</button>
+                <button className={funnynewsstyles.button3}>通知</button>
+                <button className={funnynewsstyles.button4}>メッセージ</button>
+                <button className={funnynewsstyles.button5}>プロフィール</button>
+                <button className={funnynewsstyles.button6}>聖光祭に行く</button>
                 <Link className={funnynewsstyles.backLink} href="/">
-                <p className={funnynewsstyles.back}>戻る</p>
+                    <p className={funnynewsstyles.back}>戻る</p>
                 </Link>
             </div>
             <div className={funnynewsstyles.content}>
-                {activetab === "home" && <h2>ホーム</h2>}
-                {activetab === "search" && <h2>検索</h2>}
-                {activetab === "notification" && <h2>通知</h2>}
-                {activetab === "message" && <h2>メッセージ</h2>}
-                {activetab === "profile" && <h2>プロフィール</h2>}
-                {activetab === "goseikofes" && <h2>聖光祭に行く</h2>}
+                <div className={funnynewsstyles.postcard}>
+                    <h1 className={funnynewsstyles.post}>← おもしろニュース</h1>
+                    <div className={funnynewsstyles.postheader}>
+                        <img className={funnynewsstyles.icon} src="/images/FirstView.png" />
+                        <h2 className={funnynewsstyles.account}>ポスター完成する</h2>
+                    </div>
+                    <p className={funnynewsstyles.text}>ついに、聖光祭のポスターができました。皆さん来てください</p>
+                    <img className={funnynewsstyles.image} src="/images/FirstView.png" />
+                    <p className={funnynewsstyles.date}>午前10:01 2025年8月25日</p>
+                </div>
             </div>
         </div>
     )

@@ -5,15 +5,32 @@
 }
 
 .menu{
+    grid-column: 1;
     width: 200px;
     border-right: solid 1px #ccc;
     padding: 20px;
 }
 
 .content{
-    grid-column: 1 / span 1;
+    grid-column: 2 / span 10;
     flex: 1;
     padding: 20px;
+}
+
+.postheader{
+    display: flex;
+    align-items: center;
+}
+
+.account{
+    font-size: 25px;
+}
+
+.icon{
+    width: auto;
+    max-height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .button1,
