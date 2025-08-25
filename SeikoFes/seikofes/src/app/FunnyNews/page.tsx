@@ -28,7 +28,7 @@ export default function funnynews(){
                     </div>
                     <p className={funnynewsstyles.text}>ついに、聖光祭のポスターができました。皆さん来てください</p>
                     <img className={funnynewsstyles.image} src="/images/FirstView.png" />
-                    <p className={funnynewsstyles.date}>午前10:01 2025年8月25日</p>
+                    <p className={funnynewsstyles.date}>午前10:01・2025年8月25日・87件の表示</p>
                 </div>
             </div>
         </div>

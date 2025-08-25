@@ -25,6 +25,21 @@ export default function plan(){
             description: "",
             image: "/images/FirstView.png",
         },
+        {
+            title: "",
+            description: "",
+            image: "/images/FirstView.png",
+        },
+        {
+            title: "",
+            description: "",
+            image: "/images/FirstView.png",
+        },
+        {
+            title: "",
+            description: "",
+            image: "/images/FirstView.png",
+        },
     ];
     const items4 = [
         {
