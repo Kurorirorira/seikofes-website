@@ -2,7 +2,7 @@
 import eventstyles from './Event.module.scss';
 import Link from 'next/link';
 
-export default function event(){
+export default function Event(){
     const items1 = [
         {
             title: "タイトル",

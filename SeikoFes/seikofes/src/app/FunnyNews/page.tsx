@@ -3,7 +3,7 @@ import Link from "next/link";
 import funnynewsstyles from "./FunnyNews.module.scss";
 import { useState } from "react";
 
-export default function funnynews(){
+export default function FunnyNews(){
     const [activetab, setActiveTab] = useState("home");
 
     return (

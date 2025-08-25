@@ -1,7 +1,7 @@
 import sloganstyles from "./Slogan.module.scss";
 import Link from "next/link";
 
-export default function slogan(){
+export default function Slogan(){
     return (
         <div className={sloganstyles.sloganContainer}>
             <img className={sloganstyles.kyomei} src="/images/FirstView.png" />

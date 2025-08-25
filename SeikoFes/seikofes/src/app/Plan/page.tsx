@@ -3,7 +3,7 @@ import Link from "next/link";
 import planstyles from "./Plan.module.scss";
 import { useState } from "react";
 
-export default function plan(){
+export default function Plan(){
     const [activeTab, setActiveTab] = useState("1F");
     const items1 = [
         {
