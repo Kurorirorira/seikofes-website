@@ -2,10 +2,16 @@ import backgroundstyles from "./BackGround.module.scss";
 import homepagestyles from "./HomePage.module.scss";
 import picturestyles from "./Picture.module.scss";
 import Link from "next/link";
+import { Noto_Sans_JP } from "next/font/google";
+
+const noto = Noto_Sans_JP({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+})
 
 export default function Home() {
   return (
-    <div className={backgroundstyles.background}>
+    <div className={`${backgroundstyles.background} ${noto.className}`}>
       <div className={backgroundstyles.backgroundgrid}>
         <Link className={picturestyles.onsaLink} href="/FortunePaper">
           <img className={picturestyles.onsa} src="/images/Onsa.png" alt="おみくじを引く" style={{ cursor: "pointer", width: "200px"}} />
