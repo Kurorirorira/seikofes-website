@@ -1,12 +1,9 @@
 [build]
-  # Next.js のビルドコマンド
   command = "npm run build"
-  # ビルド成果物ディレクトリ
   publish = ".next"
 
-# Netlify Next.js プラグイン
-[[plugins]]
-  package = "@netlify/next"
+[build.environment]
+  NODE_VERSION = "22.18.0"
 
 [[redirects]]
   from = "/*"
