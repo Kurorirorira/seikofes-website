@@ -1,0 +1,10 @@
+[build]
+  # Next.js のビルドコマンド
+  command = "npm run build"
+  # ビルド成果物ディレクトリ
+  publish = ".next"
+
+# Netlify Next.js プラグイン
+[[plugins]]
+  package = "@netlify/next"
+  
