@@ -7,4 +7,8 @@
 # Netlify Next.js プラグイン
 [[plugins]]
   package = "@netlify/next"
-  
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
