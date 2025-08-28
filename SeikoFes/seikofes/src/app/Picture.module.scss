@@ -2,6 +2,10 @@
     position: absolute;
     width: 20vw;
     height: auto;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
 }
 
 .onsaLink{
@@ -15,6 +19,10 @@
     width: 35vw;
     height: auto;
     transform: rotate(45deg);
+
+    @media (max-width: 600px) {
+        display: none;
+    }
 }
 
 .guitarLink{
@@ -26,6 +34,10 @@
     top: 30vh;
     width: 30vw;
     height: auto;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
 }
 
 .teddyLink{
@@ -38,6 +50,10 @@
     top: 20vh;
     width: 50vw;
     height: auto;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
 }
 
 .duckLink{
@@ -49,6 +65,10 @@
     top: 55vh;
     width: 25vw;
     height: auto;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
 }
 
 .rubbercupLink{
@@ -60,6 +80,10 @@
     top: 20vh;
     width: 20vw;
     height: auto;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
 
 }
 

@@ -69,6 +69,7 @@
     height: auto;
     width: 800px;
     padding: 10px 10px 10px 10px;
+    object-fit: cover;
 }
 
 .img1a:hover,
@@ -93,9 +94,10 @@
 .img2b,
 .img2c,
 .img2d{
-    height: auto;
-    width: 1000px;
+    height: 250px;
+    width: 250px;
     padding: 10px 10px 10px 10px;
+    object-fit: cover;
 }
 
 .img2a:hover,
@@ -126,6 +128,7 @@
 .img3c{
     height: auto;
     width: 800px;
+    object-fit: cover;
 }
 
 .img3a:hover,
@@ -139,9 +142,9 @@
 }
 
 .img3bLink{
-    grid-column: 9 / span 3;
+    grid-column: 10 / span 3;
 }
 
 .img3cLink{
-    grid-column: 13 / span 3;
+    grid-column: 15 / span 3;
 }
