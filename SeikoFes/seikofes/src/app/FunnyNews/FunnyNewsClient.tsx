@@ -1,0 +1,36 @@
+"use client";
+import Link from "next/link";
+import funnynewsstyles from "./FunnyNews.module.scss";
+import { useState } from "react";
+
+export default function FunnyNews(){
+    const [activetab, setActiveTab] = useState("home");
+
+    return (
+        <div className={funnynewsstyles.funnynewscontainer}>
+            <div className={funnynewsstyles.menu}>
+                <button className={funnynewsstyles.button1}>ホーム</button>
+                <button className={funnynewsstyles.button2}>検索</button>
+                <button className={funnynewsstyles.button3}>通知</button>
+                <button className={funnynewsstyles.button4}>メッセージ</button>
+                <button className={funnynewsstyles.button5}>プロフィール</button>
+                <button className={funnynewsstyles.button6}>聖光祭に行く</button>
+                <Link className={funnynewsstyles.backLink} href="/">
+                    <p className={funnynewsstyles.back}>戻る</p>
+                </Link>
+            </div>
+            <div className={funnynewsstyles.content}>
+                <div className={funnynewsstyles.postcard}>
+                    <h1 className={funnynewsstyles.post}>← おもしろニュース</h1>
+                    <div className={funnynewsstyles.postheader}>
+                        <img className={funnynewsstyles.icon} src="/images/FirstView.png" />
+                        <h2 className={funnynewsstyles.account}>ポスター完成する</h2>
+                    </div>
+                    <p className={funnynewsstyles.text}>ついに、聖光祭のポスターができました。皆さん来てください</p>
+                    <img className={funnynewsstyles.image} src="/images/FirstView.png" />
+                    <p className={funnynewsstyles.date}>午前10:01・2025年8月25日・87件の表示</p>
+                </div>
+            </div>
+        </div>
+    )
+}
