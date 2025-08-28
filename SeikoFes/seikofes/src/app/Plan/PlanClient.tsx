@@ -73,7 +73,7 @@ export default function Plan(){
                 <button className={`${planstyles.button5} ${activeTab === "5F" ? planstyles.active : ""}`} onClick={() => setActiveTab("5F")}>5F</button>
                 <button className={`${planstyles.button6} ${activeTab === "out" ? planstyles.active : ""}`} onClick={() => setActiveTab("out")}>外</button>
                 <Link className={planstyles.backLink} href="/">
-                <p className={planstyles.back}>戻る</p>
+                    <p className={planstyles.back}>戻る</p>
                 </Link>
             </div>
             <div className={planstyles.content}>

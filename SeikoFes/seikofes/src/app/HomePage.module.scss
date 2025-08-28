@@ -9,7 +9,7 @@
 }
 
 .textA{
-    grid-column: 5 / span 5;
+    grid-column: 2 / span 5;
     font-size: clamp(14px, 1.5vw, 20px);
     margin-top: 30px;
     color: black;
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     height: 50px;
-    grid-column: 5 / span 1;
+    grid-column: 2 / span 1;
     color: black;
     font-size: clamp(14px, 1.5vw, 20px);
     margin-top: 20px;
@@ -202,7 +202,7 @@
 }
 
 .img3aLink{
-    grid-column: 5 / span 3;
+    grid-column: 2 / span 3;
 
     @media (max-width: 600px) {
         grid-column: 2 / span 5;
@@ -210,7 +210,7 @@
 }
 
 .img3bLink{
-    grid-column: 10 / span 3;
+    grid-column: 7 / span 3;
 
     @media (max-width: 600px) {
         grid-column: 10 / span 5;
@@ -218,7 +218,7 @@
 }
 
 .img3cLink{
-    grid-column: 15 / span 3;
+    grid-column: 12 / span 3;
 
     @media (max-width: 600px) {
         grid-column: 18 / span 5;

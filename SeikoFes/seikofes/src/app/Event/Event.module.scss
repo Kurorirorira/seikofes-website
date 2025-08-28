@@ -36,6 +36,10 @@
     font: 16px;
     margin: 0;
     color: #555;
+
+    @media (max-width: 600px) {
+        font-size: 10px;   
+    }
 }
 
 .imagearea{
@@ -50,6 +54,10 @@
     max-height: 200px;
     object-fit: contain;
     border-radius: 8px;
+
+    @media (max-width: 600px) {
+        padding: 10px 10px 10px 10px;        
+    }
 }
 
 .date1,

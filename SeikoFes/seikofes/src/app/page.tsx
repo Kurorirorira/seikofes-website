@@ -31,7 +31,7 @@ export default function Home() {
         <Link className={picturestyles.hammerLink} href="/FortunePaper">
           <img className={picturestyles.hammer} src="/images/Hammer.png" alt="おみくじを引く" style={{ cursor: "pointer", width: "200px"}} />
         </Link>
-          <img className={picturestyles.firstview} src="/images/ホーム画面.png" />
+        <img className={picturestyles.firstview} src="/images/ホーム画面.png" />
          <div className={backgroundstyles.griditem}> 
             <Link className={homepagestyles.img1aLink} href="/Plan">
               <img className={homepagestyles.img1a} src="/images/ボタン「企画一覧」.png" alt="企画一覧" />
