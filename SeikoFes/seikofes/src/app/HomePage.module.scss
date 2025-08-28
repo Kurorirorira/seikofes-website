@@ -67,8 +67,14 @@
 .img1b,
 .img1c{
     height: auto;
-    width: 600px;
+    width: 800px;
     padding: 10px 10px 10px 10px;
+}
+
+.img1a:hover,
+.img1b:hover,
+.img1c:hover {
+    transform: scale(1.1);
 }
 
 .img1aLink{
@@ -88,8 +94,15 @@
 .img2c,
 .img2d{
     height: auto;
-    width: 600px;
+    width: 1000px;
     padding: 10px 10px 10px 10px;
+}
+
+.img2a:hover,
+.img2b:hover,
+.img2c:hover,
+.img2d:hover {
+    transform: scale(1.1);
 }
 
 .img2aLink{
@@ -112,8 +125,13 @@
 .img3b,
 .img3c{
     height: auto;
-    width: 400px;
-    padding: 10px 10px 10px 35px;
+    width: 800px;
+}
+
+.img3a:hover,
+.img3b:hover,
+.img3c:hover {
+    transform: scale(1.1);
 }
 
 .img3aLink{

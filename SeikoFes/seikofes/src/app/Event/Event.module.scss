@@ -3,7 +3,11 @@
     flex-direction: column;
     padding: 20px;
     gap: 20px;
-    background-color: #FFE001;
+    background-image: url('/images/その他部分背景素材.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .card{
