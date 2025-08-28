@@ -9,18 +9,22 @@
 }
 
 .textA{
-    grid-column: 5 / span 4;
+    grid-column: 5 / span 5;
     font-size: clamp(14px, 1.5vw, 20px);
     margin-top: 30px;
     color: black;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
+
+    @media (max-width: 600px) {
+        grid-column: 2 / span 20;
+    }
 }
 
 .textAA{
     grid-column: 23 / span 1;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: clamp(14px, 1.5vw, 20px);
 }
 
@@ -36,6 +40,11 @@
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
+
+    @media (max-width: 600px) {
+        grid-column: 2 / span 20;
+        justify-content: flex-start;
+    }
 }
 
 .textC1{
@@ -70,6 +79,11 @@
     width: 800px;
     padding: 10px 10px 10px 10px;
     object-fit: cover;
+
+    @media (max-width: 600px) {
+        width: 300px;
+        height: auto;
+    }
 }
 
 .img1a:hover,
@@ -80,14 +94,37 @@
 
 .img1aLink{
     grid-column: 5 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 5 / span 6;
+    }
 }
 
 .img1bLink{
     grid-column: 11 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 11 / span 6;
+    }
 }
 
 .img1cLink{
     grid-column: 17 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 17 / span 6;
+    }
+}
+
+.linkContainer{
+    display: grid;
+    grid-template-columns: repea(4, 1fr);
+    grid-column: 1 / span 24;
+    margin-top: 20px;
+
+    @media (max-width: 600px) {
+
+    }
 }
 
 .img2a,
@@ -98,6 +135,11 @@
     width: 250px;
     padding: 10px 10px 10px 10px;
     object-fit: cover;
+
+    @media (max-width: 600px) {
+        height: 150px;
+        width: auto;
+    }
 }
 
 .img2a:hover,
@@ -109,18 +151,35 @@
 
 .img2aLink{
     grid-column: 5 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 2 / span 5;
+    }
 }
 
 .img2bLink{
     grid-column: 10 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 7 / span 5;
+        
+    }
 }
 
 .img2cLink{
     grid-column: 15 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 13 / span 5;
+    }
 }
 
 .img2dLink{
     grid-column: 20 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 18 / span 5;
+    }
 }
 
 .img3a,
@@ -129,6 +188,11 @@
     height: auto;
     width: 800px;
     object-fit: cover;
+
+    @media (max-width: 600px) {
+        height: auto;
+        width: 100px;
+    }
 }
 
 .img3a:hover,
@@ -139,12 +203,24 @@
 
 .img3aLink{
     grid-column: 5 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 2 / span 5;
+    }
 }
 
 .img3bLink{
     grid-column: 10 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 10 / span 5;
+    }
 }
 
 .img3cLink{
     grid-column: 15 / span 3;
+
+    @media (max-width: 600px) {
+        grid-column: 18 / span 5;
+    }
 }

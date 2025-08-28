@@ -44,18 +44,20 @@ export default function Home() {
             </Link>
             <h1 className={homepagestyles.textA}>おもしろニュース・動画</h1>
             <p className={homepagestyles.textAA}>More→</p>
-            <Link className={homepagestyles.img2aLink} href="/FunnyNews">
-              <img className={homepagestyles.img2a} src="/images/見出し素材「ニュース」.png" alt="ニュース" />
-            </Link>
-            <Link className={homepagestyles.img2bLink} href="/FunnyNews">
-              <img className={homepagestyles.img2b} src="/images/見出し素材「レポート日記」.png" alt="レポート日記" />
-            </Link>
-            <Link className={homepagestyles.img2cLink} href="/FunnyNews">
-              <img className={homepagestyles.img2c} src="/images/見出し素材「写真・動画」.png" alt="写真・動画" />
-            </Link>
-            <Link className={homepagestyles.img2dLink} href="/FunnyNews">
-              <img className={homepagestyles.img2d} src="/images/見出し素材「情報解禁」.png" alt="情報解禁" />
-            </Link>
+            <div className={homepagestyles.linkContainer}>
+              <Link className={homepagestyles.img2aLink} href="/FunnyNews">
+                <img className={homepagestyles.img2a} src="/images/見出し素材「ニュース」.png" alt="ニュース" />
+              </Link>
+              <Link className={homepagestyles.img2bLink} href="/FunnyNews">
+                <img className={homepagestyles.img2b} src="/images/見出し素材「レポート日記」.png" alt="レポート日記" />
+              </Link>
+              <Link className={homepagestyles.img2cLink} href="/FunnyNews">
+                <img className={homepagestyles.img2c} src="/images/見出し素材「写真・動画」.png" alt="写真・動画" />
+              </Link>
+              <Link className={homepagestyles.img2dLink} href="/FunnyNews">
+                <img className={homepagestyles.img2d} src="/images/見出し素材「情報解禁」.png" alt="情報解禁" />
+              </Link>
+            </div>
             <h1 className={homepagestyles.textB}>資料</h1>
             <Link className={homepagestyles.img3aLink} href="">
               <img className={homepagestyles.img3a} src="/images/ボタン「パンフレット」.png" alt="パンフレット" />

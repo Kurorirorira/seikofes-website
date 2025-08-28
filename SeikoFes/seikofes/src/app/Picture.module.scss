@@ -95,23 +95,9 @@
     grid-column: 1 / span 24;
     width: 100%;
     height: auto;
-}
 
-@media (max-width: 768px) {
-    .onsa, .tedybear, .duck, .rubbercup, .hammer {
-        width: 40vw;
-        top: auto;
-        left: 5%;
-    }
-
-    .guitar {
-        transform: rotate(0deg);
-        width: 50vw;
-        top: 30vh;
-        left: 5%;
-    }
-
-    .firstview {
-        width: 80vw;
+    @media (max-width: 600px) {
+        max-width: 100%;
+        height: auto;
     }
 }
