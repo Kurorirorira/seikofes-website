@@ -31,40 +31,42 @@ export default function Home() {
         <Link className={picturestyles.hammerLink} href="/FortunePaper">
           <img className={picturestyles.hammer} src="/images/Hammer.png" alt="おみくじを引く" style={{ cursor: "pointer", width: "200px"}} />
         </Link>
-          <img className={picturestyles.firstview} src="/images/FirstView.png" />
+          <img className={picturestyles.firstview} src="/images/ホーム画面.png" />
          <div className={backgroundstyles.griditem}> 
-            <Link className={homepagestyles.text1aLink} href="/Plan">
-              <p className={homepagestyles.text1a}>企画一覧</p>
+            <Link className={homepagestyles.img1aLink} href="/Plan">
+              <img className={homepagestyles.img1a} src="/images/ボタン「企画一覧」.png" alt="企画一覧" />
             </Link>
-            <Link className={homepagestyles.text1bLink} href="/Slogan">
-              <p className={homepagestyles.text1b}>スローガン</p>
+            <Link className={homepagestyles.img1bLink} href="/Slogan">
+              <img className={homepagestyles.img1b} src="/images/ボタン「テーマ」.png" alt="テーマ" />
             </Link>
-            <Link className={homepagestyles.text1cLink} href="/Event">
-              <p className={homepagestyles.text1c}>イベント</p>
+            <Link className={homepagestyles.img1cLink} href="/Event">
+              <img className={homepagestyles.img1c} src="/images/ボタン「ステージ」.png" alt="ステージ" />
             </Link>
             <h1 className={homepagestyles.textA}>おもしろニュース・動画</h1>
             <p className={homepagestyles.textAA}>More→</p>
-            <Link className={homepagestyles.text2aLink} href="/FunnyNews">
-              <p className={homepagestyles.text2a}>装飾できた</p>
+            <Link className={homepagestyles.img2aLink} href="/FunnyNews">
+              <img className={homepagestyles.img2a} src="/images/見出し素材「ニュース」.png" alt="ニュース" />
             </Link>
-            <Link className={homepagestyles.text2bLink} href="/FunnyNews">
-              <p className={homepagestyles.text2b}>ステージ企画公開</p>
+            <Link className={homepagestyles.img2bLink} href="/FunnyNews">
+              <img className={homepagestyles.img2b} src="/images/見出し素材「レポート日記」.png" alt="レポート日記" />
             </Link>
-            <Link className={homepagestyles.text2cLink} href="/FunnyNews">
-              <p className={homepagestyles.text2c}>グッズ完成</p>
+            <Link className={homepagestyles.img2cLink} href="/FunnyNews">
+              <img className={homepagestyles.img2c} src="/images/見出し素材「写真・動画」.png" alt="写真・動画" />
             </Link>
-            <Link className={homepagestyles.text2dLink} href="/FunnyNews">
-              <p className={homepagestyles.text2d}>ご飯おいしい</p>
+            <Link className={homepagestyles.img2dLink} href="/FunnyNews">
+              <img className={homepagestyles.img2d} src="/images/見出し素材「情報解禁」.png" alt="情報解禁" />
             </Link>
-            <p className={homepagestyles.trapezoid1}></p>
-            <p className={homepagestyles.trapezoid2}></p>
-            <p className={homepagestyles.trapezoid3}></p>
-            <p className={homepagestyles.trapezoid4}></p>
             <h1 className={homepagestyles.textB}>資料</h1>
-            <p className={homepagestyles.text3a}>パンフレット</p>
-            <p className={homepagestyles.text3b}>SNS</p>
-            <p className={homepagestyles.text3c}>マップ</p>
-            <h2 className={homepagestyles.textC1}>クレジット<span className={homepagestyles.textC2}>/???</span></h2>
+            <Link className={homepagestyles.img3aLink} href="">
+              <img className={homepagestyles.img3a} src="/images/ボタン「パンフレット」.png" alt="パンフレット" />
+            </Link>
+            <Link className={homepagestyles.img3bLink} href="">
+              <img className={homepagestyles.img3b} src="/images/ボタン「Instagram」.png" alt="Instagram" />
+            </Link>
+            <Link className={homepagestyles.img3cLink} href="">
+              <img className={homepagestyles.img3c} src="/images/ボタン「パンフレット」.png" alt="パンフレット" />
+            </Link>
+            <h2 className={homepagestyles.textC1}>クレジット<span className={homepagestyles.imgC2}><img src="/images/ボタン「？？？」.png" alt="???" /></span></h2>
          </div> 
       </div>
     </div>

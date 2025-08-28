@@ -52,7 +52,7 @@ export default function FortuneClient() {
         <button className={styles.resetbutton} onClick={handleReset}>回数をリセット</button>
       )}
       <Link className={styles.backlink} href={"/"}>
-      <p>戻る</p>
+        <p>戻る</p>
       </Link>
     </div>
     </>
