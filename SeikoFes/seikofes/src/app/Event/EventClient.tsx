@@ -1,6 +1,12 @@
 "use client";
 import eventstyles from './Event.module.scss';
 import Link from 'next/link';
+import {Zen_Kaku_Gothic_New} from "next/font/google";
+
+const gothic = Zen_Kaku_Gothic_New({
+    weight: ['400', '700'],
+    subsets: ['latin'],
+})
 
 export default function Event(){
     const items1 = [
@@ -30,7 +36,7 @@ export default function Event(){
     ]
 
     return (
-        <div className={eventstyles.eventContainer}>
+        <div className={`${eventstyles.eventContainer} ${gothic.className}`}>
             <h1 className={eventstyles.date1}>9/28</h1>
             {items1.map((item1, index) => (
                 <div key={index} className={eventstyles.card}>

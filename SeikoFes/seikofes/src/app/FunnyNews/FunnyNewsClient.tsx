@@ -2,12 +2,18 @@
 import Link from "next/link";
 import funnynewsstyles from "./FunnyNews.module.scss";
 import { useState } from "react";
+import {Zen_Kaku_Gothic_New} from "next/font/google";
+
+const gothic = Zen_Kaku_Gothic_New({
+    weight: ['400', '700'],
+    subsets: ['latin'],
+})
 
 export default function FunnyNews(){
     const [activetab, setActiveTab] = useState("home");
 
     return (
-        <div className={funnynewsstyles.funnynewscontainer}>
+        <div className={`${funnynewsstyles.funnynewscontainer} ${gothic.className}`}>
             <div className={funnynewsstyles.menu}>
                 <button className={funnynewsstyles.button1}>ホーム</button>
                 <button className={funnynewsstyles.button2}>検索</button>

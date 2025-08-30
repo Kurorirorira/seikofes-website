@@ -31,7 +31,7 @@ export default function Home() {
         <Link className={picturestyles.hammerLink} href="/FortunePaper">
           <img className={picturestyles.hammer} src="/images/Hammer.png" alt="おみくじを引く" style={{ cursor: "pointer", width: "200px"}} />
         </Link>
-        <img className={picturestyles.firstview} src="/images/ホーム画面.png" />
+        <img className={picturestyles.firstview} src="/images/ホーム画面.webp" />
          <div className={backgroundstyles.griditem}> 
             <Link className={homepagestyles.img1aLink} href="/Plan">
               <img className={homepagestyles.img1a} src="/images/ボタン「企画一覧」.png" alt="企画一覧" />
@@ -68,7 +68,14 @@ export default function Home() {
             <Link className={homepagestyles.img3cLink} href="">
               <img className={homepagestyles.img3c} src="/images/ボタン「パンフレット」.png" alt="パンフレット" />
             </Link>
-            <h2 className={homepagestyles.textC1}>クレジット<span className={homepagestyles.imgC2}><img src="/images/ボタン「？？？」.png" alt="???" /></span></h2>
+            <h2 className={homepagestyles.textC1}>
+              クレジット
+              <span className={homepagestyles.imgC2}>
+                <Link href="/">
+                  <img src="/images/ボタン「？？？」.png" alt="???" />
+                </Link>
+              </span>
+            </h2>
          </div> 
       </div>
     </div>

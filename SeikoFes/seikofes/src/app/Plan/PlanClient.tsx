@@ -2,6 +2,12 @@
 import Link from "next/link";
 import planstyles from "./Plan.module.scss";
 import { useState } from "react";
+import { Zen_Kaku_Gothic_New } from "next/font/google";
+
+const gothic = Zen_Kaku_Gothic_New({
+        weight: ['400', '700'],
+        subsets: ['latin'],
+    })
 
 export default function Plan(){
     const [activeTab, setActiveTab] = useState("1F");
@@ -64,7 +70,7 @@ export default function Plan(){
     ]
 
     return (
-        <div className={planstyles.planContainer}>
+        <div className={`${planstyles.planContainer} ${gothic.className}`}>
             <div className={planstyles.menu}>
                 <button className={`${planstyles.button1} ${activeTab === "1F" ? planstyles.active : ""}`} onClick={() => setActiveTab("1F")}>1F</button>
                 <button className={`${planstyles.button2} ${activeTab === "2F" ? planstyles.active : ""}`} onClick={() => setActiveTab("2F")}>2F</button>

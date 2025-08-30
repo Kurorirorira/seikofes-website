@@ -2,6 +2,12 @@
 import { useState, useEffect } from "react";
 import styles from "./FortunePaper.module.scss";
 import Link from "next/link";
+import {Zen_Kaku_Gothic_New} from "next/font/google";
+
+const gothic = Zen_Kaku_Gothic_New({
+    weight: ['400', '700'],
+    subsets: ['latin'],
+})
 
 export default function FortuneClient() {
   const maxcount = 3;
@@ -41,7 +47,7 @@ export default function FortuneClient() {
 
   return (
     <>
-    <div className={styles.fortunecontainer}>
+    <div className={`${styles.fortunecontainer} ${gothic.className}`}>
       <h1>おみくじを引いてね</h1>
       <button className={styles.omikujibutton} onClick={handleClick} disabled={count <= 0}>
         おみくじを引く
