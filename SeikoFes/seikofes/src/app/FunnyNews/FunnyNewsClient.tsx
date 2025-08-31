@@ -29,11 +29,11 @@ export default function FunnyNews(){
                 <div className={funnynewsstyles.postcard}>
                     <h1 className={funnynewsstyles.post}>← おもしろニュース</h1>
                     <div className={funnynewsstyles.postheader}>
-                        <img className={funnynewsstyles.icon} src="/images/FirstView.png" />
+                        <img className={funnynewsstyles.icon} src="/images/ホーム画面.webp" />
                         <h2 className={funnynewsstyles.account}>ポスター完成する</h2>
                     </div>
                     <p className={funnynewsstyles.text}>ついに、聖光祭のポスターができました。皆さん来てください</p>
-                    <img className={funnynewsstyles.image} src="/images/FirstView.png" />
+                    <img className={funnynewsstyles.image} src="/images/ホーム画面.webp" />
                     <p className={funnynewsstyles.date}>午前10:01・2025年8月25日・87件の表示</p>
                 </div>
             </div>

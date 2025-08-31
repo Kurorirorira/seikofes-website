@@ -15,57 +15,57 @@ export default function Plan(){
         {
             title: "タイトル",
             description: "この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、",
-            image: "/images/FirstView.png",
+            image: "/images/ホーム画面.webp",
         },
     ];
     const items2 = [
         {
             title: "タイトル２",
             description: "説明",
-            image: "/images/FirstView.png",
+            image: "/images/ホーム画面.webp",
         },
     ];
     const items3 = [
         {
             title: "",
             description: "",
-            image: "/images/FirstView.png",
+            image: "/images/ホーム画面.webp",
         },
         {
             title: "",
             description: "",
-            image: "/images/FirstView.png",
+            image: "/images/ホーム画面.webp",
         },
         {
             title: "",
             description: "",
-            image: "/images/FirstView.png",
+            image: "/images/ホーム画面.webp",
         },
         {
             title: "",
             description: "",
-            image: "/images/FirstView.png",
+            image: "/images/ホーム画面.webp",
         },
     ];
     const items4 = [
         {
             title: "",
             description: "",
-            image: "/images/FirstView.png",
+            image: "/images/ホーム画面.webp",
         },
     ];
     const items5 = [
         {
             title: "",
             description: "",
-            image: "/images/FirstView.png",
+            image: "/images/ホーム画面.webp",
         },
     ];
     const items6 = [
         {
             title: "",
             description: "",
-            image: "/images/FirstView.png",
+            image: "/images/ホーム画面.webp",
         },
     ]
 
