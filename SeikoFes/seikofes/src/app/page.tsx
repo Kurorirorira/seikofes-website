@@ -49,27 +49,27 @@ export default function Home() {
             <p className={homepagestyles.textAA}>More→</p>
             <div className={homepagestyles.linkContainer}>
               <Link className={homepagestyles.img2aLink} href="/FunnyNews">
-                <img className={homepagestyles.img2a} src="/images/見出し素材「ニュース」.webp" alt="ニュース" />
+                <img className={homepagestyles.img2a} src="/images/見出し素材「ニュース」ホーム用.webp" alt="ニュース" />
               </Link>
               <Link className={homepagestyles.img2bLink} href="/FunnyNews">
-                <img className={homepagestyles.img2b} src="/images/見出し素材「レポート日記」.webp" alt="レポート日記" />
+                <img className={homepagestyles.img2b} src="/images/見出し素材「レポート日記」ホーム用.webp" alt="レポート日記" />
               </Link>
               <Link className={homepagestyles.img2cLink} href="/FunnyNews">
-                <img className={homepagestyles.img2c} src="/images/見出し素材「写真・動画」.webp" alt="写真・動画" />
+                <img className={homepagestyles.img2c} src="/images/見出し素材「写真・動画」ホーム用.webp" alt="写真・動画" />
               </Link>
               <Link className={homepagestyles.img2dLink} href="/FunnyNews">
-                <img className={homepagestyles.img2d} src="/images/見出し素材「情報解禁」.webp" alt="情報解禁" />
+                <img className={homepagestyles.img2d} src="/images/見出し素材「情報解禁」ホーム用.webp" alt="情報解禁" />
               </Link>
             </div>
             <h1 className={homepagestyles.textB}>資料</h1>
             <Link className={homepagestyles.img3aLink} href="">
-              <img className={homepagestyles.img3a} src="/images/ボタン「パンフレット」.webp" alt="パンフレット" />
+              <img className={homepagestyles.img3a} src="/images/ボタン「パンフレット」ホーム用.webp" alt="パンフレット" />
             </Link>
             <Link className={homepagestyles.img3bLink} href="">
-              <img className={homepagestyles.img3b} src="/images/ボタン「Instagram」.webp" alt="Instagram" />
+              <img className={homepagestyles.img3b} src="/images/ボタン「Instagram」ホーム用.webp" alt="Instagram" />
             </Link>
             <Link className={homepagestyles.img3cLink} href="">
-              <img className={homepagestyles.img3c} src="/images/ボタン「パンフレット」.webp" alt="パンフレット" />
+              <img className={homepagestyles.img3c} src="/images/ボタン「パンフレット」ホーム用.webp" alt="パンフレット" />
             </Link>
             <h2 className={homepagestyles.textC1}>
               クレジット
