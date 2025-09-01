@@ -13,7 +13,7 @@ export default function Slogan(){
             <img className={sloganstyles.kyomei} src="/images/ホーム画面.webp" />
             <h1 className={sloganstyles.description}>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字</h1>
             <Link className={sloganstyles.backLink} href="/">
-            <p className={sloganstyles.back}>戻る</p>
+                <p className={sloganstyles.back}>戻る</p>
             </Link>
         </div>
     )

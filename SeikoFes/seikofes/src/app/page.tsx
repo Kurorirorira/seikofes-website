@@ -19,6 +19,9 @@ export default function Home() {
         <Link className={picturestyles.teddyLink} href="/FortunePaper">
           <img className={picturestyles.teddybear} src="/images/犬.webp" alt="おみくじを引く" style={{ cursor: "pointer", width: "200px"}} />
         </Link>
+        <Link className={picturestyles.sleepmanLink} href="/FortunePaper">
+            <img className={picturestyles.sleepman} src="/images/「カッコつけて寝そべる」.webp" alt="おみくじを引く" />
+        </Link>
         <Link className={picturestyles.duckLink} href="/FortunePaper">
           <img className={picturestyles.duck} src="/images/アヒル！.webp" alt="おみくじを引く" style={{ cursor: "pointer", width: "200px"}} />
         </Link>
@@ -34,13 +37,13 @@ export default function Home() {
         <img className={picturestyles.firstview} src="/images/ホーム画面.webp" />
          <div className={backgroundstyles.griditem}> 
             <Link className={homepagestyles.img1aLink} href="/Plan">
-              <img className={homepagestyles.img1a} src="/images/ボタン「企画一覧」.webp" alt="企画一覧" />
+              <img className={homepagestyles.img1a} src="/images/ボタン「企画一覧」ホーム用.webp" alt="企画一覧" />
             </Link>
             <Link className={homepagestyles.img1bLink} href="/Slogan">
-              <img className={homepagestyles.img1b} src="/images/ボタン「テーマ」.webp" alt="テーマ" />
+              <img className={homepagestyles.img1b} src="/images/ボタン「テーマ」ホーム用.webp" alt="テーマ" />
             </Link>
             <Link className={homepagestyles.img1cLink} href="/Event">
-              <img className={homepagestyles.img1c} src="/images/ボタン「ステージ」.webp" alt="ステージ" />
+              <img className={homepagestyles.img1c} src="/images/ボタン「ステージ」ホーム用.webp" alt="ステージ" />
             </Link>
             <h1 className={homepagestyles.textA}>おもしろニュース・動画</h1>
             <p className={homepagestyles.textAA}>More→</p>

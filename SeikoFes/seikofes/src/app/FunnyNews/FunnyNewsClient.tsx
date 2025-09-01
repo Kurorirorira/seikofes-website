@@ -37,6 +37,20 @@ export default function FunnyNews(){
                     <p className={funnynewsstyles.date}>午前10:01・2025年8月25日・87件の表示</p>
                 </div>
             </div>
+            <div className={funnynewsstyles.othernews}>
+                <Link className={funnynewsstyles.news1Link} href="/FunnyNews">
+                    <img className={funnynewsstyles.news1} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
+                </Link>
+                <Link className={funnynewsstyles.news2Link} href="/FunnyNews">
+                    <img className={funnynewsstyles.news2} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
+                </Link>
+                <Link className={funnynewsstyles.news3Link} href="/FunnyNews">
+                    <img className={funnynewsstyles.news3} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
+                </Link>
+                <Link className={funnynewsstyles.news4Link} href="/FunnyNews">
+                    <img className={funnynewsstyles.news4} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
+                </Link>
+            </div>
         </div>
     )
 }
