@@ -118,10 +118,10 @@
 
 .linkContainer{
     display: grid;
-    grid-template-columns: repea(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-column: 1 / span 24;
     margin-top: 20px;
-
+    padding: 2px 4px;
     @media (max-width: 600px) {
 
     }
@@ -131,10 +131,9 @@
 .img2b,
 .img2c,
 .img2d{
+    padding: 2px 4px;
     height: auto;
-    width: 300vw;
-    padding: 10px 10px 10px 10px;
-    object-fit: cover;
+    width: 50vw;
 
     @media (max-width: 600px) {
         height: 150px;
@@ -150,7 +149,7 @@
 }
 
 .img2aLink{
-    grid-column: 5 / span 3;
+    grid-column: 1;
 
     @media (max-width: 600px) {
         grid-column: 2 / span 5;
@@ -158,7 +157,7 @@
 }
 
 .img2bLink{
-    grid-column: 10 / span 3;
+    grid-column: 2;
 
     @media (max-width: 600px) {
         grid-column: 7 / span 5;
@@ -167,7 +166,7 @@
 }
 
 .img2cLink{
-    grid-column: 15 / span 3;
+    grid-column: 3;
 
     @media (max-width: 600px) {
         grid-column: 13 / span 5;
@@ -175,7 +174,7 @@
 }
 
 .img2dLink{
-    grid-column: 20 / span 3;
+    grid-column: 4;
 
     @media (max-width: 600px) {
         grid-column: 18 / span 5;

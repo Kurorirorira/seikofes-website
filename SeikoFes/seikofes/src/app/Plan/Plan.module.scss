@@ -36,7 +36,7 @@
 .back{
     font-size: 16px;
     padding: 10px 20px;
-    
+    color: black;
 }
 
 .button1,
@@ -103,6 +103,14 @@
 .textarea h2{
     font-size: 22px;
     margin: 0;
+
+    @media (min-width: 820px) and (max-width: 1080px) {
+        color: black;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 15px;   
+    }
 }
 
 .textarea p{
@@ -111,7 +119,7 @@
     color: #555;
 
     @media (max-width:600px) {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 

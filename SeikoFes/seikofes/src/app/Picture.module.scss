@@ -3,6 +3,7 @@
     width: 20vw;
     height: auto;
     top: 10px;
+    padding: 2px 4px;
 
     @media (max-width: 600px) {
         display: none;
@@ -15,11 +16,11 @@
 
 .guitar{
     position: absolute;
-    top: 60vh;
+    top: 50vh;
     left: 5%;
-    width: 40vw;
+    width: 50vw;
     height: auto;
-    transform: rotate(40deg);
+    transform: rotate(30deg);
 
     @media (max-width: 600px) {
         display: none;
@@ -27,7 +28,7 @@
 }
 
 .guitarLink{
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 4;
 }
 
 .sleepman{
@@ -39,6 +40,10 @@
 
     @media (max-width: 600px) {
         display: none;   
+    }
+
+    @media (min-width: 820px) and (max-width: 1080px) {
+        bottom: 15px;
     }
 }
 
@@ -85,6 +90,10 @@
 
     @media (max-width: 600px) {
         display: none;
+    }
+
+    @media (min-width: 820px) and (max-width: 1080px) {
+        top: 20vh;
     }
 }
 
