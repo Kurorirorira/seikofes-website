@@ -11,13 +11,6 @@ const gothic = Zen_Kaku_Gothic_New({
 
 export default function Plan(){
     const [activeTab, setActiveTab] = useState("1F");
-    const items1 = [
-        {
-            title: "タイトル",
-            description: "この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、",
-            image: "/images/ホーム画面.webp",
-        },
-    ];
     const items2 = [
         {
             title: "A SCL 「聖書研究会」",
@@ -252,7 +245,6 @@ export default function Plan(){
     return (
         <div className={`${planstyles.planContainer} ${gothic.className}`}>
             <div className={planstyles.menu}>
-                <button className={`${planstyles.button1} ${activeTab === "1F" ? planstyles.active : ""}`} onClick={() => setActiveTab("1F")}>1F</button>
                 <button className={`${planstyles.button2} ${activeTab === "2F" ? planstyles.active : ""}`} onClick={() => setActiveTab("2F")}>2F</button>
                 <button className={`${planstyles.button3} ${activeTab === "3F" ? planstyles.active : ""}`} onClick={() => setActiveTab("3F")}>3F</button>
                 <button className={`${planstyles.button4} ${activeTab === "4F" ? planstyles.active : ""}`} onClick={() => setActiveTab("4F")}>4F</button>
@@ -263,17 +255,6 @@ export default function Plan(){
                 </Link>
             </div>
             <div className={planstyles.content}>
-                {activeTab === "1F" && items1.map((item1, index) => (
-                    <div key={index} className={planstyles.card}>
-                        <div className={planstyles.imagearea}>
-                            <img src={item1.image} alt={item1.title} />
-                        </div>
-                        <div className={planstyles.textarea}>
-                            <h2>{item1.title}</h2>
-                            <p>{item1.description}</p>
-                        </div>
-                    </div>
-                ))}
                 {activeTab === "2F" && items2.map((item2, index) => (
                     <div key={index} className={planstyles.card}>
                         <div className={planstyles.imagearea}>
