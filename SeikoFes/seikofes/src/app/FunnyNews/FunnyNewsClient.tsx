@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import funnynewsstyles from "./FunnyNews.module.scss";
 import { useState } from "react";
 import {Zen_Kaku_Gothic_New} from "next/font/google";
@@ -40,16 +39,16 @@ export default function FunnyNews(){
             </div>
             <div className={funnynewsstyles.othernews}>
                 <Link className={funnynewsstyles.news1Link} href="/FunnyNews">
-                    <Image className={funnynewsstyles.news1} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
+                    <img className={funnynewsstyles.news1} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
                 </Link>
                 <Link className={funnynewsstyles.news2Link} href="/FunnyNews">
-                    <Image className={funnynewsstyles.news2} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
+                    <img className={funnynewsstyles.news2} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
                 </Link>
                 <Link className={funnynewsstyles.news3Link} href="/FunnyNews">
-                    <Image className={funnynewsstyles.news3} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
+                    <img className={funnynewsstyles.news3} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
                 </Link>
                 <Link className={funnynewsstyles.news4Link} href="/FunnyNews">
-                    <Image className={funnynewsstyles.news4} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
+                    <img className={funnynewsstyles.news4} src="/images/見出し素材「ニュース」.webp" alt="他のニュースへ" />
                 </Link>
             </div>
         </div>

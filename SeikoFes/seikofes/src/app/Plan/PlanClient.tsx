@@ -10,7 +10,7 @@ const gothic = Zen_Kaku_Gothic_New({
     })
 
 export default function Plan(){
-    const [activeTab, setActiveTab] = useState("1F");
+    const [activeTab, setActiveTab] = useState("2F");
     const items2 = [
         {
             title: "A SCL 「聖書研究会」",

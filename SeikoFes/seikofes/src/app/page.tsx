@@ -74,7 +74,7 @@ export default function Home() {
             <h2 className={homepagestyles.textC1}>
               クレジット
               <span className={homepagestyles.imgC2}>
-                <Link href="/">
+                <Link href="/OffShot">
                   <img src="/images/ボタン「？？？」.webp" alt="???" />
                 </Link>
               </span>

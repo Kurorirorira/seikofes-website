@@ -11,10 +11,19 @@
     min-height: 100vh;
 }
 
+.images1{
+    grid-column: 1 / span 4;
+}
+
+.images2{
+    grid-column: 21 / span 4;
+}
+
+
 .kyomei{
-    grid-column: 4 / span 16;
+    grid-column: 5 / span 16;
     height: auto;
-    width: 90%;
+    width: 70%;
     max-width: 960px;
     display: block;
     margin: 0 auto;
@@ -24,6 +33,16 @@
         max-width: 100%;
         width: 100%;
     }
+}
+
+.title{
+    grid-column: 2 / span 20;
+    font-size: 30px;
+}
+
+.theme{
+    grid-column: 2 / span 20;
+    font-size: 30px;
 }
 
 .description{

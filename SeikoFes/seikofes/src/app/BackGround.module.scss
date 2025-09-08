@@ -1,5 +1,5 @@
 .background{
-    background-color: #FFE001;
+    background-image: url('/images/その他部分背景素材.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,11 +20,6 @@
 
 .griditem{
     display: contents;
-    background-image: url('/images/その他部分背景素材.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 100%;
     margin: 0 auto;
     min-height: 100vh;
