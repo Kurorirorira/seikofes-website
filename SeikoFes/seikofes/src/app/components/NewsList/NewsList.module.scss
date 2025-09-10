@@ -1,0 +1,54 @@
+.newslistcontainer{
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-column: 1 / span 24;
+    margin-top: 20px;
+
+    @media (max-width: 600px) {
+           margin-top: 0;
+    }
+}
+
+.image1,
+.image2,
+.image3,
+.image4{
+    max-height: 300px;
+    width: auto;
+
+    @media (max-width: 600px) {
+        width: 400px;   
+    }
+}
+
+.image1Link{
+    grid-column: 1 / span 4;
+
+    @media (max-width: 600px) {
+        grid-column: 1 / span 5;
+    }
+}
+
+.image2Link{
+    grid-column: 5 / span 4;
+
+    @media (max-width: 600px) {
+        grid-column: 6 / span 5;  
+    }
+}
+
+.image3Link{
+    grid-column: 9 / span 4;
+
+    @media (max-width: 600px) {
+        grid-column: 11 / span 5;
+    }
+}
+
+.image4Link{
+    grid-column: 13 / span 4;
+
+    @media (max-width: 600px) {
+        grid-column: 16 / span 5; 
+    }
+}

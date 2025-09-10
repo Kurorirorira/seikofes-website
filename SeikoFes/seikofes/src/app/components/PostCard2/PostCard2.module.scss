@@ -1,0 +1,99 @@
+.postcard2container{
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    height: auto;
+}
+
+.menu{
+    grid-column: 2 / span 3;
+    width: 200px;
+    border-right: solid 1px #ccc;
+    padding: 20px 20px 20px 0;
+    margin-right: 0;
+
+    @media (max-width: 600px) {
+        grid-column: 1 / span 1;
+        padding-right: 1px;
+        width: 116px;
+        height: 500px;
+        margin-bottom: 0;
+        background-color: aqua;
+    }
+}
+
+.content{
+    grid-column: 5 / span 16;
+    flex: 1;
+    padding: 20px 20px 20px 20px;
+
+    @media (max-width: 600px) {
+        grid-column: 3 / span 21;
+        padding: 20px 20px 20px 0;
+    }
+}
+
+.postheader{
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 600px) {
+        padding-left: 10px;
+    }
+}
+
+.account{
+    font-size: 25px;
+
+    @media (max-width: 600px) {
+        font-size: 20px;   
+    }
+}
+
+.icon{
+    width: auto;
+    max-height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text{
+    font-size: 16px;
+    white-space: pre-line;
+}
+
+.imageflex{
+    display: flex;
+}
+
+.image1,
+.image2{
+    width: 240px;
+    height: auto;
+    object-fit: cover;
+}
+
+.date{
+    @media (max-width: 600px) {
+        font-size: 10px;   
+    }
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px 1px 10px 0;
+    text-align: left;
+    color: black;
+    font-size: 16px;
+
+}
+
+.back{
+    font-size: 16px;
+}

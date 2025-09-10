@@ -48,16 +48,16 @@ export default function Home() {
             <h1 className={homepagestyles.textA}>おもしろニュース・動画</h1>
             <p className={homepagestyles.textAA}>More→</p>
             <div className={homepagestyles.linkContainer}>
-              <Link className={homepagestyles.img2aLink} href="/FunnyNews">
+              <Link className={homepagestyles.img2aLink} href="/FunnyNews2">
                 <img className={homepagestyles.img2a} src="/images/見出し素材「ニュース」ホーム用.webp" alt="ニュース" />
               </Link>
-              <Link className={homepagestyles.img2bLink} href="/FunnyNews">
+              <Link className={homepagestyles.img2bLink} href="/FunnyNews2">
                 <img className={homepagestyles.img2b} src="/images/見出し素材「レポート日記」ホーム用.webp" alt="レポート日記" />
               </Link>
-              <Link className={homepagestyles.img2cLink} href="/FunnyNews">
+              <Link className={homepagestyles.img2cLink} href="/FunnyNews2">
                 <img className={homepagestyles.img2c} src="/images/見出し素材「写真・動画」ホーム用.webp" alt="写真・動画" />
               </Link>
-              <Link className={homepagestyles.img2dLink} href="/FunnyNews">
+              <Link className={homepagestyles.img2dLink} href="/FunnyNews2">
                 <img className={homepagestyles.img2d} src="/images/見出し素材「情報解禁」ホーム用.webp" alt="情報解禁" />
               </Link>
             </div>

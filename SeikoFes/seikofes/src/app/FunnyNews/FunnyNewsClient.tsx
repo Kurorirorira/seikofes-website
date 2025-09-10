@@ -1,7 +1,5 @@
-"use client";
 import Link from "next/link";
 import funnynewsstyles from "./FunnyNews.module.scss";
-import { useState } from "react";
 import {Zen_Kaku_Gothic_New} from "next/font/google";
 
 const gothic = Zen_Kaku_Gothic_New({
@@ -10,8 +8,6 @@ const gothic = Zen_Kaku_Gothic_New({
 })
 
 export default function FunnyNews(){
-    const [activetab, setActiveTab] = useState("home");
-
     return (
         <div className={`${funnynewsstyles.funnynewscontainer} ${gothic.className}`}>
             <div className={funnynewsstyles.menu}>
