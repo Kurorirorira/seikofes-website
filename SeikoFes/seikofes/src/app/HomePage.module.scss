@@ -113,7 +113,6 @@
 
     @media (max-width: 600px) {
         grid-column: 17 / span 6;
-        display: none;
     }
 }
 
@@ -184,7 +183,6 @@
     grid-column: 13 / span 4;
 
     @media (max-width: 600px) {
-        display: none;
         grid-column: 18 / span 4;
     }
 }
@@ -222,7 +220,7 @@
     grid-column: 8 / span 4;
 
     @media (max-width: 600px) {
-        grid-column: 10 / span 5;
+        grid-column: 7 / span 5;
     }
 }
 
@@ -230,7 +228,7 @@
     grid-column: 14 / span 4;
 
     @media (max-width: 600px) {
-        grid-column: 18 / span 5;
+        grid-column: 12 / span 5;
     }
 }
 
@@ -238,6 +236,6 @@
     grid-column: 20 / span 4;
 
     @media (max-width: 600px) {
-        
+        grid-column: 17 / span 5;
     }
 }
