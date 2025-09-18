@@ -18,16 +18,11 @@ export default function FunnyNews3(){
                 <p>各企画についての詳細、スローガンについて、ステージイベント、最新のニュースなどすべての情報がこのHPから見られます！！</p>
                 <p>実は隠しコマンド的な要素もあります...</p>
                 <p>いろんなところ押してみつけてみて！！</p>
-                <br />
-                <p>[About Official Website]</p>
-                <p>Website Edit:Masaomi Hanazaki</p>
-                <p>Assist:Konata Sako</p>
-                <br />
-                <p></p>
                 </>
             }
             image = "/images/FunnyNewsImage2.jpeg"
             date = "午後16:56・2025年9月10日・87件の表示"
+            icon = "/images/アイコン.webp"
             />
         </div>
     )

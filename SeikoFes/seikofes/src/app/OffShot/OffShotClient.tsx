@@ -10,7 +10,7 @@ const gothic = Zen_Kaku_Gothic_New({
 export default function OffShot(){
     return(
         <div className={`${offshotstyles.offshotcontainer} ${gothic.className}`}>
-            <h1>ここはオフショット倉庫です</h1>
+            <h1 className={offshotstyles.text}>ここはオフショット倉庫です</h1>
             <Link className={offshotstyles.backLink} href="/">
               <p className={offshotstyles.back}>戻る</p>
             </Link>

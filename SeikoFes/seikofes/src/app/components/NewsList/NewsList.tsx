@@ -19,8 +19,8 @@ export default function NewsList({
     href2,
     image3,
     href3,
-    image4 = "/images/見出し素材「ニュース」.webp",
-    href4 = "/",
+    image4,
+    href4,
 }: NewsListProps){
     return(
         <div className={newsliststyles.newslistcontainer}>

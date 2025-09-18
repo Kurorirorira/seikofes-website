@@ -25,10 +25,19 @@
     @media (max-width: 600px) {
         display: none;
     }
+
+    @media (max-width: 820px) and (max-width: 1080px) {
+        display: none;
+        left: 10px;
+    }
 }
 
 .guitarLink{
     grid-column: 1 / span 4;
+
+    @media (max-width: 820px) and (max-width: 1080px) {
+        left: 5vw;
+    }
 }
 
 .sleepman{

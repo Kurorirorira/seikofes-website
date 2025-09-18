@@ -48,36 +48,42 @@ export default function Home() {
             <h1 className={homepagestyles.textA}>おもしろニュース・動画</h1>
             <p className={homepagestyles.textAA}>More→</p>
             <div className={homepagestyles.linkContainer}>
-              <Link className={homepagestyles.img2aLink} href="/FunnyNews2">
-                <img className={homepagestyles.img2a} src="/images/見出し素材「ニュース」ホーム用.webp" alt="ニュース" />
+              <Link className={homepagestyles.img2aLink} href="/FunnyNews3">
+                <img className={homepagestyles.img2a} src="/images/ニュース１.webp" alt="ニュース" />
               </Link>
-              <Link className={homepagestyles.img2bLink} href="/FunnyNews2">
-                <img className={homepagestyles.img2b} src="/images/見出し素材「レポート日記」ホーム用.webp" alt="レポート日記" />
+              <Link className={homepagestyles.img2bLink} href="/FunnyNews4">
+                <img className={homepagestyles.img2b} src="/images/ニュース３.webp" alt="ニュース" />
               </Link>
-              <Link className={homepagestyles.img2cLink} href="/FunnyNews2">
-                <img className={homepagestyles.img2c} src="/images/見出し素材「写真・動画」ホーム用.webp" alt="写真・動画" />
+              <Link className={homepagestyles.img2cLink} href="/FunnyNews5">
+                <img className={homepagestyles.img2c} src="/images/ニュース４.webp" alt="ニュース" />
               </Link>
-              <Link className={homepagestyles.img2dLink} href="/FunnyNews2">
-                <img className={homepagestyles.img2d} src="/images/見出し素材「情報解禁」ホーム用.webp" alt="情報解禁" />
+              <Link className={homepagestyles.img2dLink} href="/FunnyNews6">
+                <img className={homepagestyles.img2d} src="/images/ニュース２.webp" alt="ニュース" />
               </Link>
             </div>
             <h1 className={homepagestyles.textB}>資料</h1>
-            <Link className={homepagestyles.img3aLink} href="">
+            <a className={homepagestyles.img3aLink} href="https://drive.google.com/file/d/1q-YKIo3k598YFVQZ-vceEBWqzLGjgRYl/view?usp=drive_link" >
               <img className={homepagestyles.img3a} src="/images/ボタン「パンフレット」ホーム用.webp" alt="パンフレット" />
-            </Link>
-            <Link className={homepagestyles.img3bLink} href="">
-              <img className={homepagestyles.img3b} src="/images/ボタン「Instagram」ホーム用.webp" alt="Instagram" />
-            </Link>
-            <Link className={homepagestyles.img3cLink} href="">
-              <img className={homepagestyles.img3c} src="/images/ボタン「パンフレット」ホーム用.webp" alt="パンフレット" />
+            </a>
+            <a className={homepagestyles.img3bLink} target="_blank" href="https://wwwinstagram.com/57th_seiko_fes/">
+              <img className={`${homepagestyles.img3b} ${homepagestyles.img3bLink}`} src="/images/ボタン「Instagram」ホーム用.webp" alt="Instagram" />
+            </a>
+            <a className={homepagestyles.img3cLink} href="https://maps.app.goo.gl/RfxvZGEXtikWGXi79?g_st=com.google.maps.preview.copy">
+              <img className={homepagestyles.img3c} src="/images/マップボタン.webp" alt="マップ" />
+            </a>
+            <Link className={homepagestyles.img3dLink} href="/OffShot">
+            <img className={homepagestyles.img3d} src="/images/ボタン「？？？」.webp" alt="???" />
             </Link>
             <h2 className={homepagestyles.textC1}>
-              クレジット
-              <span className={homepagestyles.imgC2}>
-                <Link href="/OffShot">
-                  <img src="/images/ボタン「？？？」.webp" alt="???" />
-                </Link>
-              </span>
+              [Credit]
+              <br />
+              Website Edit: Masaomi Hanazaki
+              <br />
+              Assist: Konata Sako
+              <br />
+              Produce: Haruki Ohta
+              <br />
+              Model: Tokimaru Uchida
             </h2>
          </div> 
       </div>

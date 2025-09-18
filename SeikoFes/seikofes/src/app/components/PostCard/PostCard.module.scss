@@ -2,9 +2,16 @@
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     height: auto;
+    background-color: white;
+
 
     @media (max-width: 600px) {
-        margin-bottom: 0;   
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 820px) and (max-width: 1080px) {
+        margin-bottom: 0;
+        margin-top: 0;
     }
 }
 
@@ -42,6 +49,16 @@
     @media (max-width: 600px) {
         padding-left: 10px;
     }
+}
+
+.post{
+    color: black;
+}
+
+.account,
+.text,
+.date{
+    color: black;
 }
 
 .account{
@@ -97,4 +114,5 @@
 
 .back{
     font-size: 16px;
+    color: black;
 }

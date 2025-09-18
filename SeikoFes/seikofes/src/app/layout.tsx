@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ホーム",
   description: "ホームページへようこそ",
+  icons: "/images/アイコン.webp"
 };
 
 export default function RootLayout({

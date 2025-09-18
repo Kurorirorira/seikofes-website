@@ -21,7 +21,7 @@ export default function PostCard({
     text,
     image,
     date,
-    icon = "/images/ホーム画面.webp",
+    icon = "/images/アイコン.webp",
 }: PostCardProps) {
     return(
         <div className={`${postcardstyles.postcardContainer} ${gothic.className}`}>

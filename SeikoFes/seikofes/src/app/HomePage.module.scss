@@ -76,7 +76,7 @@
 .img1b,
 .img1c{
     height: auto;
-    width: 800px;
+    width: 900px;
     padding: 10px 10px 10px 10px;
     object-fit: cover;
 
@@ -93,7 +93,7 @@
 }
 
 .img1aLink{
-    grid-column: 5 / span 3;
+    grid-column: 5 / span 5;
 
     @media (max-width: 600px) {
         grid-column: 5 / span 6;
@@ -101,7 +101,7 @@
 }
 
 .img1bLink{
-    grid-column: 11 / span 3;
+    grid-column: 11 / span 5;
 
     @media (max-width: 600px) {
         grid-column: 11 / span 6;
@@ -109,10 +109,11 @@
 }
 
 .img1cLink{
-    grid-column: 17 / span 3;
+    grid-column: 17 / span 5;
 
     @media (max-width: 600px) {
         grid-column: 17 / span 6;
+        display: none;
     }
 }
 
@@ -152,7 +153,8 @@
 }
 
 .img2aLink{
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 4;
+
 
     @media (max-width: 600px) {
         grid-column: 1 / span 6;
@@ -161,7 +163,7 @@
 }
 
 .img2bLink{
-    grid-column: 5 / span 3;
+    grid-column: 5 / span 4;
 
     @media (max-width: 600px) {
         grid-column: 7 / span 6;
@@ -170,7 +172,7 @@
 }
 
 .img2cLink{
-    grid-column: 9 / span 3;
+    grid-column: 9 / span 4;
 
     @media (max-width: 600px) {
         grid-column: 13 / span 6;
@@ -179,7 +181,7 @@
 }
 
 .img2dLink{
-    grid-column: 13 / span 3;
+    grid-column: 13 / span 4;
 
     @media (max-width: 600px) {
         display: none;
@@ -189,7 +191,8 @@
 
 .img3a,
 .img3b,
-.img3c{
+.img3c,
+.img3d{
     height: auto;
     width: 800px;
     object-fit: cover;
@@ -202,7 +205,8 @@
 
 .img3a:hover,
 .img3b:hover,
-.img3c:hover {
+.img3c:hover,
+.img3d:hover {
     transform: scale(1.1);
 }
 
@@ -227,5 +231,13 @@
 
     @media (max-width: 600px) {
         grid-column: 18 / span 5;
+    }
+}
+
+.img3dLink{
+    grid-column: 20 / span 4;
+
+    @media (max-width: 600px) {
+        
     }
 }
