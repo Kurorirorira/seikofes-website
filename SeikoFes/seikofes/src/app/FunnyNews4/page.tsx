@@ -16,7 +16,7 @@ export default function FunnyNews4(){
                 <p>当日来場時に紙でも貰っていただけるとうれしいです！！！</p>
                 </>
             }
-            image="/images/ニュース3.webp"
+            image="/images/ニュース３.webp"
             date="21:24・2025年9月10日・87件の表示"
              />
         </div>
