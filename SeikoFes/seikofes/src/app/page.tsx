@@ -11,6 +11,7 @@ const gothic = Zen_Kaku_Gothic_New({
 
 export default function Home() {
   return (
+    
     <div className={`${backgroundstyles.background} ${gothic.className}`}>
       <div className={backgroundstyles.backgroundgrid}>
         <Link className={picturestyles.onsaLink} href="/FortunePaper">
