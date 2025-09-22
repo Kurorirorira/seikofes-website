@@ -67,7 +67,10 @@ $mobile-breakpoint: 600px;
     width: 300px;
     height: auto;
   }
-}
+  &:hover{
+    transform: scale(1.1);
+  }
+}//目印
 
 .planButtonLink {
   grid-column: 5 / span 5;
