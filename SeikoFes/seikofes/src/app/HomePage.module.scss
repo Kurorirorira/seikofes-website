@@ -1,6 +1,5 @@
 $mobile-breakpoint: 600px;
 
-
 .sectionTitleNews {
   grid-column: 2 / span 5;
   font-size: clamp(14px, 1.5vw, 20px);
@@ -54,7 +53,6 @@ $mobile-breakpoint: 600px;
   padding: 10px 5% 100px 10px;
 }
 
-
 .planButtonImg,
 .themeButtonImg,
 .stageButtonImg {
@@ -93,7 +91,6 @@ $mobile-breakpoint: 600px;
   }
 }
 
-
 .newsList {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
@@ -111,7 +108,6 @@ $mobile-breakpoint: 600px;
 .newsImg2,
 .newsImg3,
 .newsImg4 {
-  padding: 2px 4px;
   height: auto;
   width: 50vw;
 
@@ -119,13 +115,23 @@ $mobile-breakpoint: 600px;
     width: 200px;
     height: auto;
   }
+  &:hover{
+    transform: scale(1.1);
+  }
 }
 
-.newsImg1:hover,
-.newsImg2:hover,
-.newsImg3:hover,
-.newsImg4:hover {
-  transform: scale(1.1);
+.newsLink1,
+.newsLink2,
+.newsLink3,
+.newsLink4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: calc(50vw * 0.1 / 2);
+  
+  @media (max-width: $mobile-breakpoint) {
+    padding: calc(200px * 0.1 / 2);
+  }
 }
 
 .newsLink1 { grid-column: 1 / span 4; }
