@@ -70,7 +70,7 @@ export default function Home() {
           </div>
 
           {/* 資料 */}
-          <h1 className={homepagestyles.sectionTitleResources}>資料</h1>
+          <h1 className={homepagestyles.sectionTitleResources}>関連リンク</h1>
           <a className={homepagestyles.pamphletButtonLink} href="https://drive.google.com/file/d/1q-YKIo3k598YFVQZ-vceEBWqzLGjgRYl/view?usp=drive_link">
             <img className={homepagestyles.pamphletButtonImg} src="/images/ボタン「パンフレット」ホーム用.webp" alt="パンフレット" />
           </a>
