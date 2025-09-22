@@ -1,3 +1,5 @@
+$mobile-breakpoint: 600px;
+
 .h1{
     display: inline-block;
     font-size: clamp(5%, 5vw, 100px);
@@ -17,7 +19,7 @@
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 2 / span 20;
     }
 }
@@ -41,7 +43,7 @@
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 2 / span 20;
         justify-content: flex-start;
     }
@@ -80,7 +82,7 @@
     padding: 10px 10px 10px 10px;
     object-fit: cover;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         width: 300px;
         height: auto;
     }
@@ -95,7 +97,7 @@
 .img1aLink{
     grid-column: 5 / span 5;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 5 / span 6;
     }
 }
@@ -103,7 +105,7 @@
 .img1bLink{
     grid-column: 11 / span 5;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 11 / span 6;
     }
 }
@@ -111,7 +113,7 @@
 .img1cLink{
     grid-column: 17 / span 5;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 17 / span 6;
     }
 }
@@ -123,7 +125,7 @@
     margin-top: 20px;
     padding: 2px 4px;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-template-columns: repeat(24, 1fr);
         position: relative;
         margin-bottom: 20px;
@@ -138,7 +140,7 @@
     height: auto;
     width: 50vw;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         height: auto;
         width: 200px;
     }
@@ -154,35 +156,31 @@
 .img2aLink{
     grid-column: 1 / span 4;
 
-
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 1 / span 6;
-        
     }
 }
 
 .img2bLink{
     grid-column: 5 / span 4;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 7 / span 6;
-        
     }
 }
 
 .img2cLink{
     grid-column: 9 / span 4;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 13 / span 6;
-        
     }
 }
 
 .img2dLink{
     grid-column: 13 / span 4;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 19 / span 6;
     }
 }
@@ -195,7 +193,7 @@
     width: 800px;
     object-fit: cover;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         height: auto;
         width: 100px;
     }
@@ -211,7 +209,7 @@
 .img3aLink{
     grid-column: 2 / span 4;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 2 / span 5;
     }
 }
@@ -219,7 +217,7 @@
 .img3bLink{
     grid-column: 8 / span 4;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 7 / span 5;
     }
 }
@@ -227,7 +225,7 @@
 .img3cLink{
     grid-column: 14 / span 4;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 12 / span 5;
     }
 }
@@ -235,7 +233,7 @@
 .img3dLink{
     grid-column: 20 / span 4;
 
-    @media (max-width: 600px) {
+    @media (max-width: $mobile-breakpoint) {
         grid-column: 17 / span 5;
     }
 }
