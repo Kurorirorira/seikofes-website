@@ -49,7 +49,7 @@ export default function Event(){
 
     return (
         <div className={`${eventstyles.eventContainer} ${gothic.className}`}>
-            <h1 className={eventstyles.date1}>9/28</h1>
+            <h1 className={eventstyles.date1}>9/27</h1>
             {items1.map((item1, index) => (
                 <div key={index} className={eventstyles.card}>
                     <div className={eventstyles.textarea}>
@@ -64,7 +64,7 @@ export default function Event(){
                     </div>
                 </div>
             ))}
-            <h1 className={eventstyles.date2}>9/29</h1>
+            <h1 className={eventstyles.date2}>9/28</h1>
             {items2.map((item2, index) => (
                 <div key={index} className={eventstyles.card}>
                     <div className={eventstyles.textarea}>
