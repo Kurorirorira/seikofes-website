@@ -48,8 +48,9 @@
 
 .textarea p{
     font: 16px;
+    padding-top: 10px;
     margin: 0;
-    color: #555;
+    color: #000;
 
     @media (max-width: 600px) {
         font-size: 10px;   
@@ -80,11 +81,26 @@
     color: black;
 }
 
-.date2{
+.date2 .date1{
     margin-top: 50px;
 }
 
 .back{
     font-size: 50px;
     color: black;
+}
+
+.back{
+    font-size: 16px;
+    color: #fff;
+}
+
+.backLink{
+    position: fixed;
+    
+    color: #fff;
+    background-color: #000;
+    margin: 0.5em 0.5em;
+    width: fit-content;
+    padding: 0.25em 0.5em;
 }

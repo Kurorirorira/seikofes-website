@@ -18,14 +18,14 @@ export default function FunnyNews5(){
             image2="images/IMG_2265.webp"
             date = "午後16:05・2025年9月16日・87件の表示"
              />
-             <NewsList
+             {/* <NewsList
              image1="/images/ニュース２.webp"
              href1="/FunnyNews2"
              image2="/images/ニュース３.webp"
              href2="/FunnyNews4"
              image3="/images/ニュース１.webp"
              href3="/FunnyNews3"
-              />
+              /> */}
         </div>
     )
 }

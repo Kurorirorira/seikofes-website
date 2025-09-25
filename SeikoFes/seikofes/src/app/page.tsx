@@ -41,19 +41,21 @@ export default function Home() {
 
         {/* メインコンテンツ */}
         <div className={backgroundstyles.griditem}>
+          <div className={homepagestyles.mainContain}>
           <Link className={homepagestyles.planButtonLink} href="/Plan">
-            <img className={homepagestyles.planButtonImg} src="/images/ボタン「企画一覧」ホーム用.webp" alt="企画一覧" />
+            <img className={homepagestyles.planButtonImg} src="/images/project.png" alt="企画一覧" />
           </Link>
           <Link className={homepagestyles.themeButtonLink} href="/Slogan">
-            <img className={homepagestyles.themeButtonImg} src="/images/ボタン「テーマ」ホーム用.webp" alt="テーマ" />
+            <img className={homepagestyles.themeButtonImg} src="/images/theme.png" alt="テーマ" />
           </Link>
           <Link className={homepagestyles.stageButtonLink} href="/Event">
-            <img className={homepagestyles.stageButtonImg} src="/images/ボタン「ステージ」ホーム用.webp" alt="ステージ" />
+            <img className={homepagestyles.stageButtonImg} src="/images/schedule.png" alt="ステージ" />
           </Link>
+          </div>
 
           {/* ニュース */}
           <h1 className={homepagestyles.sectionTitleNews}>おもしろニュース・動画</h1>
-          <p className={homepagestyles.sectionLinkMore}>More→</p>
+          {/* <p className={homepagestyles.sectionLinkMore}>More→</p> リンクがないので削除 */}
           <div className={homepagestyles.newsList}>
             <Link className={homepagestyles.newsLink1} href="/FunnyNews3">
               <img className={homepagestyles.newsImg1} src="/images/ニュース１.webp" alt="ニュース" />
@@ -70,19 +72,22 @@ export default function Home() {
           </div>
 
           {/* 資料 */}
+
           <h1 className={homepagestyles.sectionTitleResources}>関連リンク</h1>
+          <div className={homepagestyles.linkContain}>
           <a className={homepagestyles.pamphletButtonLink} href="https://drive.google.com/file/d/1q-YKIo3k598YFVQZ-vceEBWqzLGjgRYl/view?usp=drive_link">
-            <img className={homepagestyles.pamphletButtonImg} src="/images/ボタン「パンフレット」ホーム用.webp" alt="パンフレット" />
+            <img className={homepagestyles.pamphletButtonImg} src="/images/panphlet.png" alt="パンフレット" />
           </a>
           <a className={homepagestyles.instagramButtonLink} target="_blank" href="https://www.instagram.com/57th_seiko_fes/">
-            <img className={homepagestyles.instagramButtonImg} src="/images/ボタン「Instagram」ホーム用.webp" alt="Instagram" />
+            <img className={homepagestyles.instagramButtonImg} src="/images/instagram.png" alt="Instagram" />
           </a>
           <a className={homepagestyles.mapButtonLink} href="https://maps.app.goo.gl/RfxvZGEXtikWGXi79?g_st=com.google.maps.preview.copy">
-            <img className={homepagestyles.mapButtonImg} src="/images/マップボタン.webp" alt="マップ" />
+            <img className={homepagestyles.mapButtonImg} src="/images/map.png" alt="マップ" />
           </a>
           <Link className={homepagestyles.mysteryButtonLink} href="/OffShot">
-            <img className={homepagestyles.mysteryButtonImg} src="/images/ボタン「？？？」.webp" alt="???" />
+            <img className={homepagestyles.mysteryButtonImg} src="/images/offshot.png" alt="???" />
           </Link>
+          </div>
 
           {/* クレジット */}
           <h2 className={homepagestyles.creditBox}>
