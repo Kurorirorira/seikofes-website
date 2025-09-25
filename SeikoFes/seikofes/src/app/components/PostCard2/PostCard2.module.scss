@@ -67,6 +67,8 @@
 
 .imageflex{
     display: flex;
+    margin-top: 3vh;
+    width: auto;
 }
 
 .image1,
@@ -74,6 +76,7 @@
     width: 240px;
     height: auto;
     object-fit: cover;
+    
 }
 
 .date{
@@ -102,3 +105,4 @@
     font-size: 16px;
     color: black;
 }
+

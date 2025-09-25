@@ -25,7 +25,7 @@ export default function PostCard({
 }: PostCardProps) {
     return(
         <div className={`${postcardstyles.postcardContainer} ${gothic.className}`}>
-            <div className={postcardstyles.menu}>
+            {/* <div className={postcardstyles.menu}>
                 <p className={postcardstyles.p1}>ホーム</p>
                 <p className={postcardstyles.p2}>検索</p>
                 <p className={postcardstyles.p3}>通知</p>
@@ -35,17 +35,19 @@ export default function PostCard({
                 <Link className={postcardstyles.backLink} href="/">
                   <p className={postcardstyles.back}>戻る</p>
                 </Link>
-            </div>
+            </div> */}
             <div className={postcardstyles.content}>
                 <div className={postcardstyles.postcard}>
-                    <h1 className={postcardstyles.post}>←面白ニュース</h1>
+                    <Link className={postcardstyles.backLink} href="/">
+                    <h1 className={postcardstyles.post}>← 戻る</h1>
+                    </Link>
                     <div className={postcardstyles.postheader}>
                         <img className={postcardstyles.icon} src={icon} alt="icon" />
                         <h2 className={postcardstyles.account}>{account}</h2>
                     </div>
                     <p className={postcardstyles.text}>{text}</p>
                     <img className={postcardstyles.image} src={image} alt="image" />
-                    <p className={postcardstyles.date}>{date}</p>
+                    {/* <p className={postcardstyles.date}>{date}</p> */}
                 </div>
             </div>
         </div>

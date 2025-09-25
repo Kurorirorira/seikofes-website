@@ -10,7 +10,7 @@ const gothic = Zen_Kaku_Gothic_New({
 export default function FunnyNews(){
     return (
         <div className={`${funnynewsstyles.funnynewscontainer} ${gothic.className}`}>
-            <div className={funnynewsstyles.menu}>
+            {/* <div className={funnynewsstyles.menu}>
                 <button className={funnynewsstyles.button1}>ホーム</button>
                 <button className={funnynewsstyles.button2}>検索</button>
                 <button className={funnynewsstyles.button3}>通知</button>
@@ -20,7 +20,7 @@ export default function FunnyNews(){
                 <Link className={funnynewsstyles.backLink} href="/">
                     <p className={funnynewsstyles.back}>戻る</p>
                 </Link>
-            </div>
+            </div> */}
             <div className={funnynewsstyles.content}>
                 <div className={funnynewsstyles.postcard}>
                     <h1 className={funnynewsstyles.post}>← おもしろニュース</h1>
