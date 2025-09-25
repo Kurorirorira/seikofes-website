@@ -4,7 +4,7 @@ $mobile-breakpoint: 600px;
 .sectionTitleNews {
   grid-column: 2 / span 5;
   font-size: clamp(14px, 1.6vw, 20px);
-  margin-top: 30px;
+  margin-top: 20px;
   color: #fff;
   background-color: #000;
   width: fit-content;
@@ -25,24 +25,19 @@ $mobile-breakpoint: 600px;
 }
 
 .sectionTitleResources {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
   grid-column: 2 / span 5;
-  padding: 0.5em 0.8em;
-  width: fit-content;
-
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-size: clamp(14px, 1.6vw, 20px);
   margin-top: 20px;
   color: #fff;
   background-color: #000;
+  width: fit-content;
+  padding: 0.5em 0.8em;
+
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 400;
   font-style: normal;
   @media (max-width: $mobile-breakpoint) {
     grid-column: 2 / span 20;
-    justify-content: flex-start;
   }
 }
 
@@ -54,11 +49,14 @@ $mobile-breakpoint: 600px;
   height: fit-content;
   grid-column: 2 / span 22;
   font-size: clamp(14px, 1.5vw, 20px);
-  margin-top: 100px;
+  margin-top: 130px;
   color: black;
   border: solid 2px black;
   padding: 10px 10px;
   margin-bottom: 70px;
+  @media (max-width: $mobile-breakpoint) {
+    margin-top: 50px;
+  }
 }
 
 .planButtonImg,
@@ -70,7 +68,7 @@ $mobile-breakpoint: 600px;
   object-fit: cover;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 300px;
+    width: 900px;
     height: auto;
   }
   &:hover {
@@ -79,28 +77,54 @@ $mobile-breakpoint: 600px;
 } //目印
 
 .mainContain {
-  margin-top: 15vh;
-  margin-bottom: 10vh;
+  margin-top: 30px;
+  margin-bottom: 10px;
   grid-column: 2 / span 22;
   display: flex;
   justify-content: space-between;
+  @media (max-width: $mobile-breakpoint) {
+    grid-column: 1 / span 24;
+  }
 }
 .linkContain {
   grid-column: 2 / span 22;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
   justify-content: space-between;
+  margin-top: 20px;
+  justify-content: center; 
+  gap: 20px;
+  @media  (max-width: $mobile-breakpoint){
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 15px;
+  }
 }
 
 .planButtonLink {
   width: 27vw;
+  @media (max-width: $mobile-breakpoint) {
+    width: 40vw;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .themeButtonLink {
   width: 27vw;
+  @media (max-width: $mobile-breakpoint) {
+    width: 40vw;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .stageButtonLink {
   width: 27vw;
+  @media (max-width: $mobile-breakpoint) {
+    width: 40vw;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .newsList {
@@ -124,7 +148,7 @@ $mobile-breakpoint: 600px;
   width: 50vw;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 200px;
+    width: 80px;
     height: auto;
   }
   &:hover {
@@ -142,7 +166,7 @@ $mobile-breakpoint: 600px;
   padding: calc(50vw * 0.1 / 2);
 
   @media (max-width: $mobile-breakpoint) {
-    padding: calc(200px * 0.1 / 2);
+    padding: 0px;
   }
 }
 
@@ -179,13 +203,15 @@ $mobile-breakpoint: 600px;
 .instagramButtonImg,
 .mapButtonImg,
 .mysteryButtonImg {
-  margin-top: 8vh;
+  margin-top: 10px;
   height: auto;
-  width: 18vw;
+  width: 80%;
   object-fit: cover;
+  padding-left: auto;
+  padding-right: auto;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 100px;
+    width: 90%;
     height: auto;
   }
 }

@@ -52,4 +52,7 @@
     display:flex;
     margin-bottom: 3vh;
     align-items: end; 
+    @media (max-width: 768px) {
+      display:block;
+    }
 }

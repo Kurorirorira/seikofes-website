@@ -1,108 +1,82 @@
-.postcard2container{
+.postcard2container {
     display: grid;
     grid-template-columns: repeat(24, 1fr);
-    height: auto;
+    min-height: 100lvh;
     background-color: white;
-    margin-bottom: 0;
-    color: black;
+    color: #000;
 }
 
-.menu{
-    grid-column: 2 / span 3;
-    width: 200px;
-    border-right: solid 1px #ccc;
-    padding: 20px 20px 20px 0;
-    margin-right: 0;
-
-    @media (max-width: 600px) {
-        grid-column: 1 / span 1;
-        padding-right: 1px;
-        width: 116px;
-        height: 500px;
-        margin-bottom: 0;
-    }
-}
-
-.content{
+.content {
     grid-column: 5 / span 16;
-    flex: 1;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
 
     @media (max-width: 600px) {
         grid-column: 3 / span 21;
-        padding: 20px 20px 20px 0;
+        padding: 20px 10px;
     }
 }
 
-.postheader{
+.postcard {
+    display: flex;
+    flex-direction: column;
+}
+
+.postheader {
     display: flex;
     align-items: center;
-
-    @media (max-width: 600px) {
-        padding-left: 10px;
-    }
+    margin-bottom: 1rem;
 }
 
-.account{
-    font-size: 25px;
-    color: black;
-
-    @media (max-width: 600px) {
-        font-size: 20px;   
-    }
-}
-
-.icon{
+.icon {
     width: auto;
     max-height: 25px;
     object-fit: cover;
     border-radius: 50%;
+    margin-right: 8px;
 }
 
-.text{
-    font-size: 16px;
-    white-space: pre-line;
-    color: black;
-}
-
-.imageflex{
-    display: flex;
-    margin-top: 3vh;
-    width: auto;
-}
-
-.image1,
-.image2{
-    width: 240px;
-    height: auto;
-    object-fit: cover;
-    
-}
-
-.date{
+.account {
+    font-size: 25px;
+    color: #000;
     @media (max-width: 600px) {
-        font-size: 10px;   
+        font-size: 16px;
     }
 }
 
-.p1,
-.p2,
-.p3,
-.p4,
-.p5,
-.p6 {
-    display: block;
-    margin-bottom: 10px;
-    border: none;
-    padding: 10px 1px 10px 0;
-    text-align: left;
-    color: black;
-    font-size: 16px;
-
-}
-
-.back{
+.text {
     font-size: 16px;
     color: black;
+    white-space: pre-line;
+
+    @media (max-width: 600px) {
+        font-size: 12px;
+    }
 }
 
+.imageflex {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image1,
+.image2 {
+    height: auto;
+    width: 40%;
+
+
+    @media (max-width: 600px) {
+        width: 40%;
+    }
+}
+
+.post {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.backLink {
+    margin-bottom: 2vh;
+}

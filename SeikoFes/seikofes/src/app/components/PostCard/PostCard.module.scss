@@ -3,7 +3,7 @@
     grid-template-columns: repeat(24, 1fr);
     height: auto;
     background-color: white;
-
+    min-height: 100lvh;
 
     @media (max-width: 600px) {
         margin-bottom: 0;
