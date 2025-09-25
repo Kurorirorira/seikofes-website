@@ -1,15 +1,55 @@
-.offshotcontainer{
-    background-image: url('/images/その他部分背景素材.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.offshotcontainer {
+  background-image: url("/images/その他部分背景素材.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  padding: 2rem;
+
+  .pin {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
 }
 
-.text{
-    color: black;
+.text {
+  grid-column: 1 / -1;
+  color: white;
+  background-color: #000;
+  width: fit-content;
+  padding: 0.1em 0.3em;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-right: 1vw;
 }
 
-.back{
-    color: black;
+.back {
+  grid-column: 1 / -1;
+  color: white;
+  background-color: #000;
+  width: fit-content;
+  padding: 0.1em 0.3em;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.texts{
+    display:flex;
+    margin-bottom: 3vh;
+    align-items: end; 
 }
